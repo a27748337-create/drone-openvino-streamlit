@@ -9,8 +9,9 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("드론 탐지 시스템")
-st.write("YOLO11 + OpenVINO 모델을 이용한 드론 탐지 앱입니다.")
+st.title("㈜사옹원 AI Vision")
+st.subheader("드론 탐지 시스템")
+st.write("YOLO11 + OpenVINO 기반 AI 드론 탐지 시스템")
 
 MODEL_PATH = "drone_yolo11n_best_openvino_model"
 
